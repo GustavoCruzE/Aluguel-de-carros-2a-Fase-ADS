@@ -1,0 +1,102 @@
+/* Reset básico para limpar estilos padrão do navegador */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%; /* Garante que o body e html ocupem toda a altura da viewport */
+}
+
+/* Estilo para o header */
+.container-header {
+    width: 80%;
+    margin: 0 auto;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0px 0px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    header h1 {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    }
+    
+    
+    nav {
+    
+    
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    
+    
+    }
+    
+    
+    nav ul {
+    list-style: none;
+    }
+    
+    
+    nav ul li {
+    display: inline;
+    margin-left: 20px;
+    }
+    
+    
+    nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+/* Estilo para o conteúdo principal */
+.main-content {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Ocupa toda a altura da viewport */
+    background-color: #fff; /* Cor de fundo para o conteúdo principal */
+}
+
+/* Estilo para o formulário de compra */
+.form-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form-row label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-row input[type="date"] {
+    flex: 2;
+}
+
+.form-container input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,182 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+
+
+.member, .contact {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+strong {
+    color: #000;
+}
+
+.container-header {
+    width: 70%;
+    margin: 0 auto;
+    background: #15370E;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0px 0px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+header h1 {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 30px;
+}
+
+
+nav {
+
+
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+
+
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: #15370E;
+    color: #fff;
+    padding: 1px;
+}
+
+
+.conteiner-footer-informações {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+
+.column {
+    width: 30%;
+}
+
+
+.column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+
+.column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.column ul li a:hover {
+    text-decoration: underline;
+}
+
+.container-redes-sociais {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #15370E;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.social-icons img {
+    width: 70px; /* Defina o tamanho desejado para todos os ícones */
+    height: 70px;
+}
+
+
+.social-icons img{filter: invert(100%);}
+
+.container-footer-final{
+    background: #15370E;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 12px;
+
+
+}
